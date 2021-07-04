@@ -1,1 +1,5 @@
-# ProyectoOsciloscopio
+# Osciloscopio digital en FPGA
+
+Un osciloscopio es un elemento fundamental a la hora de trabajar con señales eléctricas, pudiendo medir un gran número de fenómenos físicos si se cuenta con el sensor adecuado. Este dispositivo tiene un gran peso en el campo de la electrónica, donde se emplea tanto en el diseño como en la reparación de todo tipo de sistemas electrónicos.
+
+Este Trabajo Fin de Máster tiene como objetivo desarrollar un osciloscopio digital capaz de ser implementado de manera sencilla, teniendo como único requisito disponer de una FPGA y un monitor en el que ver las señales muestreadas. Además, se desarrollan funcionalidades básicas de un osciloscopio como tener dos canales, \textit{trigger} con varios modos de funcionamiento y representación numérica de las diferentes magnitudes de las señales. Finalmente, se representan los datos en un monitor conectado a la FPGA por el puerto VGA, por lo que será necesario realizar el diseño de dicha interfaz gráfica. Para conseguir todo esto, se diseñaran todos los elementos necesarios para la implementación de un osciloscopio, desde la adquisición de datos hasta la visualización en las señales en una pantalla. Esto se realizará mediante el lenguaje de descripción \textit{hardware} VHDL, con el fin de implementar el sistema en una FPGA.
