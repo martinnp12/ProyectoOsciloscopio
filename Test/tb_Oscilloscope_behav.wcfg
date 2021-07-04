@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_Oscilloscope_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="oscilloscope_pkg" />
+            <top_module name="tb_Oscilloscope" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="15105624804fs"></ZoomEndTime>
+      <Cursor1Time time="34001000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="190"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="120" />
+   <wvobject fp_name="/tb_Oscilloscope/Reset_I" type="logic">
+      <obj_property name="ElementShortName">Reset_I</obj_property>
+      <obj_property name="ObjectShortName">Reset_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/CLK100MHz_I" type="logic">
+      <obj_property name="ElementShortName">CLK100MHz_I</obj_property>
+      <obj_property name="ObjectShortName">CLK100MHz_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Inst_pxl_clk/Clk_o" type="logic">
+      <obj_property name="ElementShortName">Clk_o</obj_property>
+      <obj_property name="ObjectShortName">Clk_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/ON_ch1_i" type="logic">
+      <obj_property name="ElementShortName">ON_ch1_i</obj_property>
+      <obj_property name="ObjectShortName">ON_ch1_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/ON_ch2_i" type="logic">
+      <obj_property name="ElementShortName">ON_ch2_i</obj_property>
+      <obj_property name="ObjectShortName">ON_ch2_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/VGA_HS_O" type="logic">
+      <obj_property name="ElementShortName">VGA_HS_O</obj_property>
+      <obj_property name="ObjectShortName">VGA_HS_O</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/VGA_VS_O" type="logic">
+      <obj_property name="ElementShortName">VGA_VS_O</obj_property>
+      <obj_property name="ObjectShortName">VGA_VS_O</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/VGA_RED_O" type="array">
+      <obj_property name="ElementShortName">VGA_RED_O[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_RED_O[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/VGA_BLUE_O" type="array">
+      <obj_property name="ElementShortName">VGA_BLUE_O[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_BLUE_O[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/VGA_GREEN_O" type="array">
+      <obj_property name="ElementShortName">VGA_GREEN_O[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_GREEN_O[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1578">
+      <obj_property name="label">DataMemory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/FIFO_empty_i" type="logic">
+      <obj_property name="ElementShortName">FIFO_empty_i</obj_property>
+      <obj_property name="ObjectShortName">FIFO_empty_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/data_FIFO_i" type="array">
+      <obj_property name="ElementShortName">data_FIFO_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data_FIFO_i[11:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch2/data_FIFO_i" type="array">
+      <obj_property name="ElementShortName">data_FIFO_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data_FIFO_i[11:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/ram_addr_i" type="array">
+      <obj_property name="ElementShortName">ram_addr_i[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr_i[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/data_FIFO_i" type="array">
+      <obj_property name="ElementShortName">data_FIFO_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data_FIFO_i[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/downsample_i" type="array">
+      <obj_property name="ElementShortName">downsample_i[12:0]</obj_property>
+      <obj_property name="ObjectShortName">downsample_i[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/ram_read_i" type="logic">
+      <obj_property name="ElementShortName">ram_read_i</obj_property>
+      <obj_property name="ObjectShortName">ram_read_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/getBusControl_i" type="logic">
+      <obj_property name="ElementShortName">getBusControl_i</obj_property>
+      <obj_property name="ObjectShortName">getBusControl_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/Read_FIFO_o" type="logic">
+      <obj_property name="ElementShortName">Read_FIFO_o</obj_property>
+      <obj_property name="ObjectShortName">Read_FIFO_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/ram_data_o" type="array">
+      <obj_property name="ElementShortName">ram_data_o[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data_o[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/CurrentState" type="other">
+      <obj_property name="ElementShortName">CurrentState</obj_property>
+      <obj_property name="ObjectShortName">CurrentState</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/ram_addr" type="array">
+      <obj_property name="ElementShortName">ram_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/addr_count" type="array">
+      <obj_property name="ElementShortName">addr_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_count[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/databus" type="array">
+      <obj_property name="ElementShortName">databus[11:0]</obj_property>
+      <obj_property name="ObjectShortName">databus[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/ram_write_en" type="logic">
+      <obj_property name="ElementShortName">ram_write_en</obj_property>
+      <obj_property name="ObjectShortName">ram_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/data_asked" type="logic">
+      <obj_property name="ElementShortName">data_asked</obj_property>
+      <obj_property name="ObjectShortName">data_asked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/downsample_cnt" type="array">
+      <obj_property name="ElementShortName">downsample_cnt[12:0]</obj_property>
+      <obj_property name="ObjectShortName">downsample_cnt[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/sample_en" type="logic">
+      <obj_property name="ElementShortName">sample_en</obj_property>
+      <obj_property name="ObjectShortName">sample_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/Inst_RAM/read_en_i" type="logic">
+      <obj_property name="ElementShortName">read_en_i</obj_property>
+      <obj_property name="ObjectShortName">read_en_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/data_ch1_o" type="array">
+      <obj_property name="ElementShortName">data_ch1_o[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data_ch1_o[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/Inst_RAM/ContentRAM" type="array">
+      <obj_property name="ElementShortName">ContentRAM[0:1024][11:0]</obj_property>
+      <obj_property name="ObjectShortName">ContentRAM[0:1024][11:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1596">
+      <obj_property name="label">Buffer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/read_en" type="logic">
+      <obj_property name="ElementShortName">read_en</obj_property>
+      <obj_property name="ObjectShortName">read_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/buffer_addr" type="other">
+      <obj_property name="ElementShortName">buffer_addr</obj_property>
+      <obj_property name="ObjectShortName">buffer_addr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/buffer_addr_aux" type="other">
+      <obj_property name="ElementShortName">buffer_addr_aux</obj_property>
+      <obj_property name="ObjectShortName">buffer_addr_aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/data_i" type="array">
+      <obj_property name="ElementShortName">data_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/v_sync_i" type="logic">
+      <obj_property name="ElementShortName">v_sync_i</obj_property>
+      <obj_property name="ObjectShortName">v_sync_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/plot_en_i" type="logic">
+      <obj_property name="ElementShortName">plot_en_i</obj_property>
+      <obj_property name="ObjectShortName">plot_en_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/buffer_addr_i" type="array">
+      <obj_property name="ElementShortName">buffer_addr_i[8:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer_addr_i[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/ram_addr_o" type="array">
+      <obj_property name="ElementShortName">ram_addr_o[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr_o[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/giveBusControl_o" type="logic">
+      <obj_property name="ElementShortName">giveBusControl_o</obj_property>
+      <obj_property name="ObjectShortName">giveBusControl_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[8:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/CurrentState" type="other">
+      <obj_property name="ElementShortName">CurrentState</obj_property>
+      <obj_property name="ObjectShortName">CurrentState</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/copyEnded" type="logic">
+      <obj_property name="ElementShortName">copyEnded</obj_property>
+      <obj_property name="ObjectShortName">copyEnded</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/buffer_data" type="array">
+      <obj_property name="ElementShortName">buffer_data[0:440][8:0]</obj_property>
+      <obj_property name="ObjectShortName">buffer_data[0:440][8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus536" type="vbus">
+      <obj_property name="label">data</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Inst_PlotDisplay/x_plot" type="array">
+      <obj_property name="ElementShortName">x_plot[8:0]</obj_property>
+      <obj_property name="ObjectShortName">x_plot[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Inst_PlotDisplay/y_plot" type="array">
+      <obj_property name="ElementShortName">y_plot[8:0]</obj_property>
+      <obj_property name="ObjectShortName">y_plot[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/data_i" type="array">
+      <obj_property name="ElementShortName">data_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/data_reg" type="array">
+      <obj_property name="ElementShortName">data_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data_reg[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch2/VPD_I" type="array">
+      <obj_property name="ElementShortName">VPD_I[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VPD_I[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/scaleFactor" type="array">
+      <obj_property name="ElementShortName">scaleFactor[21:0]</obj_property>
+      <obj_property name="ObjectShortName">scaleFactor[21:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/data_conv" type="array">
+      <obj_property name="ElementShortName">data_conv[34:0]</obj_property>
+      <obj_property name="ObjectShortName">data_conv[34:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/data_conv_aux" type="array">
+      <obj_property name="ElementShortName">data_conv_aux[8:0]</obj_property>
+      <obj_property name="ObjectShortName">data_conv_aux[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/write_en" type="logic">
+      <obj_property name="ElementShortName">write_en</obj_property>
+      <obj_property name="ObjectShortName">write_en</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider58">
+      <obj_property name="label">ch rom</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_Character_ROM/reset_i" type="logic">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_Character_ROM/addr_i" type="array">
+      <obj_property name="ElementShortName">addr_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_Character_ROM/data_aux" type="array">
+      <obj_property name="ElementShortName">data_aux[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_aux[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_Character_ROM/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider62">
+      <obj_property name="label">sym rom</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_Symbol_ROM/reset_i" type="logic">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_Symbol_ROM/addr_i" type="array">
+      <obj_property name="ElementShortName">addr_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_i[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_Symbol_ROM/data_aux" type="array">
+      <obj_property name="ElementShortName">data_aux[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_aux[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_Symbol_ROM/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_TriggerArrow/Red_O" type="array">
+      <obj_property name="ElementShortName">Red_O[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Red_O[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_TriggerArrow/Green_O" type="array">
+      <obj_property name="ElementShortName">Green_O[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Green_O[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_TriggerArrow/Blue_O" type="array">
+      <obj_property name="ElementShortName">Blue_O[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Blue_O[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_TriggerArrow/en_x_i" type="logic">
+      <obj_property name="ElementShortName">en_x_i</obj_property>
+      <obj_property name="ObjectShortName">en_x_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_TriggerArrow/en_y_i" type="logic">
+      <obj_property name="ElementShortName">en_y_i</obj_property>
+      <obj_property name="ObjectShortName">en_y_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_TriggerArrow/x_pos" type="array">
+      <obj_property name="ElementShortName">x_pos[2:0]</obj_property>
+      <obj_property name="ObjectShortName">x_pos[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_TriggerArrow/y_pos" type="array">
+      <obj_property name="ElementShortName">y_pos[2:0]</obj_property>
+      <obj_property name="ObjectShortName">y_pos[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_TriggerArrow/pxlState" type="logic">
+      <obj_property name="ElementShortName">pxlState</obj_property>
+      <obj_property name="ObjectShortName">pxlState</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_TriggerEdge/en_x_i" type="logic">
+      <obj_property name="ElementShortName">en_x_i</obj_property>
+      <obj_property name="ObjectShortName">en_x_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_TriggerEdge/en_y_i" type="logic">
+      <obj_property name="ElementShortName">en_y_i</obj_property>
+      <obj_property name="ObjectShortName">en_y_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_TriggerEdge/pxlState" type="logic">
+      <obj_property name="ElementShortName">pxlState</obj_property>
+      <obj_property name="ObjectShortName">pxlState</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_TriggerEdge/Red_O" type="array">
+      <obj_property name="ElementShortName">Red_O[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Red_O[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_TriggerEdge/Green_O" type="array">
+      <obj_property name="ElementShortName">Green_O[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Green_O[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_TriggerEdge/Blue_O" type="array">
+      <obj_property name="ElementShortName">Blue_O[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Blue_O[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/trigger_i" type="array">
+      <obj_property name="ElementShortName">trigger_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">trigger_i[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_ButtonDriver/Inst_DriverBotones/Trigger_O" type="array">
+      <obj_property name="ElementShortName">Trigger_O[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Trigger_O[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_ButtonDriver/Inst_DriverBotones/Trigger" type="array">
+      <obj_property name="ElementShortName">Trigger[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Trigger[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_ButtonDriver/Inst_DriverBotones/Reset_I" type="logic">
+      <obj_property name="ElementShortName">Reset_I</obj_property>
+      <obj_property name="ObjectShortName">Reset_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_Trigger/triggered_o" type="logic">
+      <obj_property name="ElementShortName">triggered_o</obj_property>
+      <obj_property name="ObjectShortName">triggered_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_Trigger/prev_data" type="array">
+      <obj_property name="ElementShortName">prev_data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">prev_data[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_Trigger/trigger_i" type="array">
+      <obj_property name="ElementShortName">trigger_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">trigger_i[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/data_FIFO_i" type="array">
+      <obj_property name="ElementShortName">data_FIFO_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data_FIFO_i[11:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/ram_addr_i" type="array">
+      <obj_property name="ElementShortName">ram_addr_i[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr_i[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider101">
+      <obj_property name="label">Trigger</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Memory_ch1/data_FIFO_i" type="array">
+      <obj_property name="ElementShortName">data_FIFO_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data_FIFO_i[11:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_Trigger/edge" type="logic">
+      <obj_property name="ElementShortName">edge</obj_property>
+      <obj_property name="ObjectShortName">edge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_Trigger/CurrentState" type="other">
+      <obj_property name="ElementShortName">CurrentState</obj_property>
+      <obj_property name="ObjectShortName">CurrentState</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/reg_triggered" type="logic">
+      <obj_property name="ElementShortName">reg_triggered</obj_property>
+      <obj_property name="ObjectShortName">reg_triggered</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_Trigger/ram_address_i" type="array">
+      <obj_property name="ElementShortName">ram_address_i[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_address_i[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_Trigger/address_aux" type="array">
+      <obj_property name="ElementShortName">address_aux[9:0]</obj_property>
+      <obj_property name="ObjectShortName">address_aux[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_Trigger/address" type="array">
+      <obj_property name="ElementShortName">address[9:0]</obj_property>
+      <obj_property name="ObjectShortName">address[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/reg_address" type="array">
+      <obj_property name="ElementShortName">reg_address[9:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_address[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_Trigger/adc_drdy_i" type="logic">
+      <obj_property name="ElementShortName">adc_drdy_i</obj_property>
+      <obj_property name="ObjectShortName">adc_drdy_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_Trigger/sampleCount" type="array">
+      <obj_property name="ElementShortName">sampleCount[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sampleCount[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_Trigger/enoughData" type="logic">
+      <obj_property name="ElementShortName">enoughData</obj_property>
+      <obj_property name="ObjectShortName">enoughData</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/ram_addr_o" type="array">
+      <obj_property name="ElementShortName">ram_addr_o[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr_o[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_VGA/Ins_SignalBuffer_ch1/ram_addr" type="array">
+      <obj_property name="ElementShortName">ram_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_Trigger/tickCount" type="array">
+      <obj_property name="ElementShortName">tickCount[21:0]</obj_property>
+      <obj_property name="ObjectShortName">tickCount[21:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_Trigger/autoTrigger" type="logic">
+      <obj_property name="ElementShortName">autoTrigger</obj_property>
+      <obj_property name="ObjectShortName">autoTrigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_Trigger/triggerAuto_i" type="logic">
+      <obj_property name="ElementShortName">triggerAuto_i</obj_property>
+      <obj_property name="ObjectShortName">triggerAuto_i</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider111">
+      <obj_property name="label">Measurements</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_Measurements_CH1/op" type="array">
+      <obj_property name="ElementShortName">op[15:0]</obj_property>
+      <obj_property name="ObjectShortName">op[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_Measurements_CH2/accumulator" type="array">
+      <obj_property name="ElementShortName">accumulator[20:0]</obj_property>
+      <obj_property name="ObjectShortName">accumulator[20:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_Measurements_CH2/average" type="array">
+      <obj_property name="ElementShortName">average[11:0]</obj_property>
+      <obj_property name="ObjectShortName">average[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_Measurements_CH2/average_aux" type="array">
+      <obj_property name="ElementShortName">average_aux[36:0]</obj_property>
+      <obj_property name="ObjectShortName">average_aux[36:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider121">
+      <obj_property name="label">FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Sampler/FIFO_ch2/data_i" type="array">
+      <obj_property name="ElementShortName">data_i[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Sampler/FIFO_ch2/wr_en_i" type="logic">
+      <obj_property name="ElementShortName">wr_en_i</obj_property>
+      <obj_property name="ObjectShortName">wr_en_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Sampler/FIFO_ch2/rd_en_i" type="logic">
+      <obj_property name="ElementShortName">rd_en_i</obj_property>
+      <obj_property name="ObjectShortName">rd_en_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Sampler/FIFO_ch2/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[11:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Sampler/FIFO_ch2/full_o" type="logic">
+      <obj_property name="ElementShortName">full_o</obj_property>
+      <obj_property name="ObjectShortName">full_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Sampler/FIFO_ch2/empty_o" type="logic">
+      <obj_property name="ElementShortName">empty_o</obj_property>
+      <obj_property name="ObjectShortName">empty_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Sampler/FIFO_ch2/ContentFIFO" type="array">
+      <obj_property name="ElementShortName">ContentFIFO[0:15][11:0]</obj_property>
+      <obj_property name="ObjectShortName">ContentFIFO[0:15][11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Oscilloscope/dut/Inst_DataAcquisition/Inst_ADC_Sampler/FIFO_ch2/dataCount" type="other">
+      <obj_property name="ElementShortName">dataCount</obj_property>
+      <obj_property name="ObjectShortName">dataCount</obj_property>
+   </wvobject>
+</wave_config>
