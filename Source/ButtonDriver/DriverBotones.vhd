@@ -216,13 +216,13 @@ begin
 
 
  --OPTIONS OUTPUTS
-  VPD1_O <= "1110";
- VPD2_O <= "1110";
- TPD_O <= "0011";
+--  VPD1_O <= "1110";
+-- VPD2_O <= "1110";
+-- TPD_O <= "0011";
  
--- VPD1_O <= VPD1;
--- VPD2_O <= VPD2;
--- TPD_O <= TPD;
+ VPD1_O <= VPD1;
+ VPD2_O <= VPD2;
+ TPD_O <= TPD;
  Trigger_O <= Trigger;
        
         
